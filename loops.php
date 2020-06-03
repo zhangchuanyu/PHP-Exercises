@@ -95,12 +95,16 @@ Print the array from task 3 as unordered list. Printing has to be done inside th
 Before looping, you need to print the opening list-tag <ul>
 After looping, you need to print the closing list-tag </ul>
 */
-echo "<ul>";
-foreach ($food as $fooda)  {
-            echo "<li>".$fooda."</li>";
-        }
-echo "</ul>";
 
+for($i=0; $i <$len;$i++){
+if ($i==0)
+{
+echo "<ul>";
+}
+echo $food[$i];
+if($i ==$len-1){
+echo"</ul>";}
+}
 
 // task separator
 echo "<hr style=\"margin 1rem 0\">";
