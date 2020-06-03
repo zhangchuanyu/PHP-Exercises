@@ -71,11 +71,8 @@ while ($z <count($food)) {
 /*
 Use for-loop to print array elements (every food in a new row).
 */
-$z=0;
-while ( $z< $len) {
-	echo $food[$z]."<br>";
-	$z++;
-	# code...
+for($q=0;$q<count($food);$i++){
+	echo $food[$i]."<br>";
 }
 /*
 Use foreach-loop to print array elements (every food in a new row).
