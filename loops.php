@@ -101,7 +101,7 @@ if ($i==0)
 {
 echo "<ul>";
 }
-echo $food[$i];
+echo "<li>".$food[$i]."</li>";
 if($i ==$len-1){
 echo"</ul>";}
 }
